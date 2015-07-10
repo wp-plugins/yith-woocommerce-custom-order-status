@@ -1,0 +1,69 @@
+/**
+ * Admin style
+ *
+ * @author Leanza Francesco
+ * @version 1.0.0
+ */
+
+#yith-wccos-metabox .icon-manager{
+  	height: 200px;
+  	width: 450px;
+  	overflow-y: scroll;
+}
+
+#yith-wccos-metabox .icon-manager-wrapper{
+	width: 500px;
+}
+
+#yith-wccos-metabox .icon-manager-text{
+    width: 450px;
+}
+
+#yith-wccos-metabox .icon-list-wrapper li{
+  	display: inline-block;
+  	padding: 5px;
+}
+
+#yith-wccos-metabox .custom_icon_wrapper{
+	display: none;
+}
+
+#yith_status_icon{
+	width:60px;
+}
+
+.yith_status_icon mark{
+    display: block;
+    text-indent: -9999px;
+    position: relative;
+    height: 1em;
+    width: 1em;
+    background: 0 0;
+    font-size: 1.4em;
+    margin: 0 auto;
+}
+
+.column-yith_status_icon span{
+	display: block;
+    position: relative;
+    height: 1em;
+    width: 1em;
+    background: 0 0;
+    font-size: 1.2em;
+    margin: 0 auto;
+    color: #777;
+}
+
+.column-yith_status_icon span::after{
+	content: "\e011";
+	top: 0;
+	font-family: WooCommerce;
+	speak: none;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	left: 0;
+	text-align: center;
+}
+
