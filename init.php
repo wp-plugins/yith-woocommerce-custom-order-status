@@ -3,7 +3,7 @@
 * Plugin Name: YITH WooCommerce Custom Order Status
 * Plugin URI: http://yithemes.com/
 * Description: YITH WooCommerce Custom Order Status allows you to create and manage custom order statuses for Woocommerce.
-* Version: 1.0.1
+* Version: 1.0.2
 * Author: YIThemes
 * Author URI: http://yithemes.com/
 * Text Domain: yith-wccos
@@ -11,7 +11,7 @@
 *
 * @author yithemes
 * @package YITH WooCommerce Custom Order Status
-* @version 1.0.1
+* @version 1.0.2
 */
 /*  Copyright 2015  Your Inspiration Themes  (email : plugins@yithemes.com)
 
@@ -61,7 +61,7 @@ register_activation_hook( __FILE__, 'yith_plugin_registration_hook' );
 
 
 if ( ! defined( 'YITH_WCCOS_VERSION' ) ){
-    define( 'YITH_WCCOS_VERSION', '1.0.1' );
+    define( 'YITH_WCCOS_VERSION', '1.0.2' );
 }
 
 if ( ! defined( 'YITH_WCCOS_FREE_INIT' ) ) {
